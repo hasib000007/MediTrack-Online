@@ -1,0 +1,10 @@
+.main-header { background: white; padding: 15px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+.header-flex { display: flex; justify-content: space-between; align-items: center; }
+.logo h1 { color: #002855; font-size: 32px; font-weight: bold; line-height: 1; }
+.logo .tagline { display: block; font-size: 10px; color: #888; font-style: italic; margin-top: 5px; }
+
+.nav-menu { display: flex; gap: 5px; }
+.nav-item { text-decoration: none; color: #002855; font-weight: 600; padding: 10px 15px; transition: 0.3s; position: relative; }
+.nav-item.active { background: #2dd4bf; color: white; }
+.nav-item.blue-highlight { background: #4facfe; color: white; }
+.nav-item:hover { color: #4facfe; }
