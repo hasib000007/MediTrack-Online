@@ -1,0 +1,7 @@
+.top-bar { background-color: #002855; color: white; padding: 8px 0; font-size: 13px; }
+.top-flex, .top-left, .top-right { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.home-icon { background: #4facfe; color: white; padding: 5px 10px; border-radius: 4px; text-decoration: none; font-weight: bold; }
+.search-box { position: relative; }
+.search-box input { background: #1a3c66; border: 1px solid #4a668a; border-radius: 20px; padding: 5px 30px 5px 15px; color: white; outline: none; }
+.search-box i { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); color: #ccc; }
+.top-right a { color: white; text-decoration: none; }
