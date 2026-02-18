@@ -1,0 +1,219 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediTrack Hospital</title>
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head> 
+<body>
+
+    <div class="top-bar">
+        <div class="container top-flex">
+            <div class="top-left">
+                <a href="#" class="home-icon"><i class="fas fa-home"></i> MediTrack</a>
+                <span class="welcome-text">Welcome to MediTrack.</span>
+            </div>
+            <div class="top-right">
+                <div class="search-box">
+                    <input type="text" placeholder="Search">
+                    <i class="fas fa-search"></i>
+                </div>
+                <a href="#">Publications</a>
+                <a href="#">View All Locations <i class="fas fa-chevron-down"></i></a>
+                <a href="#" class="phone"><i class="fas fa-phone-alt"></i> 01749974338</a>
+                <a href="#">English <i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-flex">
+            
+            <div class="logo">
+                <img src="images/logo.png" alt="MediTrack Logo">
+            </div>
+
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active">Home</a>
+                <a href="#" class="nav-item">About Us</a>
+                
+                <a href="#" class="nav-item">
+                    Specialities 
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+                
+                <a href="#" class="nav-item">Online Test Booking</a> <a href="#" class="nav-item">Online Report</a>
+                <a href="#" class="nav-item">Patient Stories</a>
+                
+                <a href="#" class="nav-item">Health Check</a>
+                <a href="#" class="nav-item">Career</a>
+            </nav>
+
+            <div class="header-right">
+                <a href="#" class="btn-query">Send Query</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-bg">
+            <img src="images/home.webp" alt="Hospital Banner">
+        </div>
+        
+       
+        <div class="action-bar-overlay">
+            <div class="container">
+                <div class="action-grid">
+                    <a href="#" class="action-box border-blue">
+                        <span class="action-text">FIND A DOCTOR</span>
+                        <div class="action-icon"><i class="fas fa-user-md"></i></div>
+                    </a>
+                    <a href="#" class="action-box border-cyan">
+                        <span class="action-text">REQUEST AN <br> APPOINTMENT</span>
+                        <div class="action-icon"><i class="fas fa-calendar-check"></i></div>
+                    </a>
+                    <a href="#" class="action-box border-navy">
+                        <span class="action-text">ONLINE REPORT</span>
+                        <div class="action-icon"><i class="fas fa-file-alt"></i></div>
+                    </a>
+                    <a href="#" class="action-box border-purple">
+                        <span class="action-text">TELE-ONLINE</span>
+                        <div class="action-icon"><i class="fas fa-headset"></i></div>
+                    </a>
+                    <a href="#" class="action-box border-green">
+                        <span class="action-text">PATIENT & <br> VISITORS GUIDE</span>
+                        <div class="action-icon"><i class="fas fa-wheelchair"></i></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-section">
+        <div class="container">
+            <h2>Why Choose MediTrack</h2>
+            <p class="section-desc">We combine medical expertise with compassionate care to provide the best health solutions for you and your family.</p>
+            
+            <div class="why-grid">
+                <div class="why-box">
+                    <div class="icon-box">
+                        <i class="fas fa-ambulance" style="font-size:30px; color:#002855;"></i>
+                    </div>
+                    <h4>24/7 Emergency Support</h4>
+                    <p>Always ready to serve with our dedicated emergency team and ambulance service.</p>
+                </div>
+
+                <div class="why-box">
+                    <div class="icon-box">
+                        <i class="fas fa-user-doctor" style="font-size:30px; color:#002855;"></i>
+                    </div>
+                    <h4>Expert Doctors</h4>
+                    <p>Highly qualified doctors and specialists ensuring the best treatment plans.</p>
+                </div>
+
+                <div class="why-box">
+                    <div class="icon-box">
+                        <i class="fas fa-microscope" style="font-size:30px; color:#002855;"></i>
+                    </div>
+                    <h4>Modern Technology</h4>
+                    <p>Equipped with world-class diagnostic machines and modern OT facilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="specialities-section">
+        <div class="container spec-container">
+            <div class="spec-left">
+                <div class="spec-image">
+                    <img src="images/specialities-1.webp" alt="Doctor"> 
+                </div>
+            </div>
+
+            <div class="spec-right">
+                <h2>Our Specialities</h2>
+                <div class="slider-window">
+                    <div class="slider-track" id="sliderTrack">
+                        <div class="spec-grid-page">
+                            <div class="spec-card"><i class="fas fa-truck-medical"></i><span>Emergency</span></div>
+                            <div class="spec-card"><i class="fas fa-heart-pulse"></i><span>Cardiology</span></div>
+                            <div class="spec-card"><i class="fas fa-brain"></i><span>Neurology</span></div>
+                            <div class="spec-card"><i class="fas fa-bone"></i><span>Orthopaedics</span></div>
+                            <div class="spec-card"><i class="fas fa-baby"></i><span>Pediatrics</span></div>
+                            <div class="spec-card"><i class="fas fa-tooth"></i><span>Dental</span></div>
+                            <div class="spec-card"><i class="fas fa-eye"></i><span>Eye Care</span></div>
+                            <div class="spec-card"><i class="fas fa-lungs"></i><span>Pulmonology</span></div>
+                        </div>
+                        <div class="spec-grid-page">
+                            <div class="spec-card"><i class="fas fa-dna"></i><span>Genetics</span></div>
+                            <div class="spec-card"><i class="fas fa-user-nurse"></i><span>Nursing</span></div>
+                            <div class="spec-card"><i class="fas fa-flask"></i><span>Laboratory</span></div>
+                            <div class="spec-card"><i class="fas fa-x-ray"></i><span>Radiology</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spec-footer">
+                    <div class="spec-arrows">
+                        <button onclick="slidePrev()"><i class="fas fa-arrow-left"></i></button>
+                        <button onclick="slideNext()"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <a href="#" class="btn-view-all">View All Specialities</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bottom-stripe">
+        <span class="c-blue"></span>
+        <span class="c-lightblue"></span>
+        <span class="c-purple"></span>
+        <span class="c-green"></span> 
+    </div>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="Logo" class="footer-logo" style="height: 50px; background:white; padding:5px; border-radius:5px;">
+                <p>MediTrack Hospital is dedicated to providing the best medical care with modern technology and expert doctors.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Find a Doctor</a></li>
+                    <li><a href="#">Book Appointment</a></li>
+                    <li><a href="#">Patient Guide</a></li>
+                    <li><a href="#">Health Checkup</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Plot 81, Block E, Bashundhara R/A, Dhaka</li>
+                    <li><i class="fas fa-phone-alt"></i> 01749974338</li>
+                    <li><i class="fas fa-envelope"></i> info@meditrack.com</li>
+                    <li><i class="fas fa-clock"></i> 24/7 Emergency Open</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 MediTrack Hospital. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="HomePage.js"></script>
+    
+</body>
+</html>
