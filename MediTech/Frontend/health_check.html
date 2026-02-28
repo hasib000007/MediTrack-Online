@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Check · BMI & wellness</title>
+  <link rel="stylesheet" href="health_check.css">
+</head>
+<body>
+  <div class="health-card">
+    <header>
+      <div class="heart-icon heart-beat">❤️</div>
+      <h1>Health<span>check</span></h1>
+    </header>
+
+    <div class="grid-2col">
+     
+      <section class="bmi-panel">
+        <h2>⚕️ BMI checker</h2>
+        <div class="input-group">
+          <label>Your height</label>
+          <div class="input-wrapper">
+            <span>📏</span>
+            <input type="number" id="heightInput" placeholder="170" value="170" step="0.1" min="50" max="280">
+          </div>
+          <div class="unit-hint">centimeters (cm)</div>
+        </div>
+        <div class="input-group">
+          <label>Your weight</label>
+          <div class="input-wrapper">
+            <span>⚖️</span>
+            <input type="number" id="weightInput" placeholder="70" value="70" step="0.1" min="10" max="300">
+          </div>
+          <div class="unit-hint">kilograms (kg)</div>
+        </div>
+
+        <button class="btn-calc" id="calculateBtn">
+          <span>🩺</span> CHECK HEALTH <span>🩺</span>
+        </button>
+
+        <div class="result-box" id="resultBox">
+          <div class="bmi-value" id="bmiDisplay">22.4</div>
+          <div class="bmi-category" id="categoryDisplay">NORMAL</div>
+          <div class="bmi-info" id="rangeHint">Healthy weight range</div>
+        </div>
+        <p style="font-size:0.8rem; margin-top: 8px; color:#3f7a72;">*BMI = weight(kg) / [height(m)]²</p>
+      </section>
+
+    
+      <section class="tips-panel">
+        <h2>📋 daily health check</h2>
+        <ul class="health-list">
+          <li><span class="check-symbol">✅</span> Drink 8 glasses of water</li>
+          <li><span class="check-symbol">✅</span> 30 min movement / walk</li>
+          <li><span class="check-symbol">✅</span> 7-9 hrs sleep</li>
+          <li><span class="check-symbol">✅</span> 5 servings of veggies/fruits</li>
+          <li><span class="check-symbol">✅</span> Mindful breathing (5 min)</li>
+        </ul>
+        <div class="extra-note">
+          <p>
+            <span style="font-size:2rem;">💚</span>
+            <span><strong>wellness tip:</strong> Keep a regular sleep schedule & stay hydrated — your body will thank you.</span>
+          </p>
+        </div>
+       
+        <div style="margin-top: 1.5rem; background: #c1f2eb; border-radius: 1.5rem; padding: 1rem;">
+          <p style="display: flex; gap: 12px;">
+            <span style="background: #1b7c74; color:white; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">❤️</span>
+            <span style="color: #04423b;">Resting heart rate (normal): <strong>60–100 bpm</strong> <br> <small style="color:#2d6b63;">measure after waking up</small></span>
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      ⚕️ your daily health companion — simple check, better awareness ⚕️
+    </footer>
+  </div>
+<script src="health_check.js"></script>
+
+</body>
+</html>
