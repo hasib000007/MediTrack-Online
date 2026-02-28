@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Portal | MediTrack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="online_report.css">
+</head>
+<body>
+
+    <div class="login-wrapper">
+        <div class="login-box">
+            
+            <div class="logo-area">
+                <img src="images/logo.png" alt="MediTrack Logo">
+            </div>
+
+            <h2>Patient <span>Portal</span></h2>
+            <p class="subtitle">Sign in to your account</p>
+
+            <form action="#" id="loginForm">
+                
+                <div class="input-group">
+                    <input type="text" id="uhid" placeholder="Enter UHID / Registration No." required>
+                    <i class="far fa-user"></i>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <i class="fas fa-eye toggle-password" id="togglePassword"></i>
+                </div>
+
+                <div class="btn-row">
+                    <button type="submit" class="btn btn-signin">Sign In</button>
+                    <button type="reset" class="btn btn-reset">Reset</button>
+                    <button type="button" class="btn btn-forgot" onclick="alert('Please contact support to reset password.')">Forgot?</button>
+                </div>
+
+                <button type="button" class="btn btn-howto">How to use patient portal</button>
+
+                <div class="register-link">
+                    Don't have an account? 
+                    <a href="register.html">Register Now</a>
+                </div>
+
+                <div id="messageBox"></div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="online_report.js"></script>
+</body>
+</html>
