@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MediTrack Hospital Specialities - All medical departments and services">
+    <title>Specialities - MediTrack Hospital</title>
+    <link rel="stylesheet" href="Specialities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container top-flex">
+            <div class="top-left">
+                <a href="HomePage.html" class="home-icon"><i class="fas fa-home"></i> MediTrack</a>
+                <span class="welcome-text">Welcome to MediTrack</span>
+            </div>
+            <div class="top-right">
+                <div class="search-box">
+                    <input type="text" placeholder="Search specialities..." aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </div>
+                <a href="#">Publications</a>
+                <a href="#">All Locations <i class="fas fa-chevron-down"></i></a>
+                <a href="tel:+8801749974338" class="phone"><i class="fas fa-phone-alt"></i> 01749974338</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-flex">
+            <div class="logo">
+                <a href="HomePage.html"><img src="images/logo.png" alt="MediTrack Logo"></a>
+            </div>
+            
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="HomePage.html" class="nav-item">Home</a>
+                <a href="AboutUs.html" class="nav-item">About Us</a>
+                <a href="Specialities.html" class="nav-item active">Specialities</a>
+                <a href="#" class="nav-item">Online Test</a>
+                <a href="#" class="nav-item">Online Report</a>
+                <a href="#" class="nav-item">Patient Stories</a>
+                <a href="#" class="nav-item">Health Check</a>
+                <a href="#" class="nav-item">Career</a>
+            </nav>
+
+            <div class="header-right">
+                <a href="#" class="btn-query">Send Query</a>
+            </div>
+        </div>
+    </header>
+      <div class="hero-bg">
+            <img src="images/specialitiespage.webp" alt="Hospital Banner">
+        </div>
+
+    <section class="hero-section">
+        <div class="hero-bg">
+            <div class="hero-overlay">
+                <div class="container">
+                    <h1>Our Specialities</h1>
+                    <p>Comprehensive medical services across 25+ departments with world-class expertise</p>
+                    <div class="breadcrumb">
+                        <a href="HomePage.html">Home</a> / <span>Specialities</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Medical Departments</h2>
+                <p>Choose from our wide range of specialized departments</p>
+            </div>
+            
+            <div class="categories-grid">
+                <a href="emergency.html" class="category-card blue">
+                    <i class="fas fa-truck-medical"></i>
+                    <h3>Emergency</h3>
+                    <p>24/7 Critical Care</p>
+                </a>
+                <a href="Cardiology.html" class="category-card cyan">
+                    <i class="fas fa-heart-pulse"></i>
+                    <h3>Cardiology</h3>
+                    <p>Heart Care Experts</p>
+                </a>
+
+                <a href="eye_care.html" class="category-card teal">
+                    <i class="fas fa-eye"></i>
+                    <h3>Eye Care</h3>
+                    <p>Vision & Ophthalmology</p>
+                </a>
+                <a href="pulmonology.html" class="category-card lightblue">
+                    <i class="fas fa-lungs"></i>
+                    <h3>Pulmonology</h3>
+                    <p>Respiratory Health</p>
+                </a>
+                <a href="laboratory.html" class="category-card indigo">
+                    <i class="fas fa-microscope"></i>
+                    <h3>Laboratory</h3>
+                    <p>Precise Diagnostics</p>
+                </a>
+                <a href="radiology.html" class="category-card slate">
+                    <i class="fas fa-x-ray"></i>
+                    <h3>Radiology</h3>
+                    <p>Advanced Imaging</p>
+                </a>
+                <a href="genetics.html" class="category-card dna-gold">
+                    <i class="fas fa-dna"></i>
+                    <h3>Genetics</h3>
+                    <p>Genomic Medicine</p>
+                </a>
+                <a href="nursing.html" class="category-card red">
+                    <i class="fas fa-user-nurse"></i>
+                    <h3>Nursing</h3>
+                    <p>Patient Care Services</p>
+                </a>
+
+                <a href="Neurology.html" class="category-card purple">
+                    <i class="fas fa-brain"></i>
+                    <h3>Neurology</h3>
+                    <p>Brain & Nerve Care</p>
+                </a>
+                <a href="Orthopaedics.html" class="category-card green">
+                    <i class="fas fa-bone"></i>
+                    <h3>Orthopaedics</h3>
+                    <p>Bone & Joint Specialists</p>
+                </a>
+                <a href="Pediatrics.html" class="category-card orange">
+                    <i class="fas fa-baby"></i>
+                    <h3>Pediatrics</h3>
+                    <p>Child Healthcare</p>
+                </a>
+                <a href="Gynaecology.html" class="category-card pink">
+                    <i class="fas fa-child-reaching"></i>
+                    <h3>Gynaecology</h3>
+                    <p>Women Health</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="MediTrack Logo" class="footer-logo">
+                <p>MediTrack Healthcare - Excellence in Medical Services</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li><a href="AboutUs.html">About</a></li>
+                    <li><a href="Specialities.html">Specialities</a></li>
+                    <li><a href="laboratory.html">Lab Tests</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-phone-alt"></i> 01749974338</li>
+                    <li><i class="fas fa-envelope"></i> info@meditrack.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 MediTrack Hospital. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Specialities.js"></script>
+</body>
+</html>
